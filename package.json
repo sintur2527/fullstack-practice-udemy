@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sintur2527/fullstack-practice-udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sintur2527/fullstack-practice-udemy/issues"
+  },
+  "homepage": "https://github.com/sintur2527/fullstack-practice-udemy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
