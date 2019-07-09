@@ -3,9 +3,14 @@ import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
     return (
-      <div>
-        <h1>Header</h1>
-      </div>
+      <nav>
+        <div className="nav-wrapper">
+          <a className="left brand-logo">Emaily</a>
+          <ul className="right">
+            <li>Login With Google</li>
+          </ul>
+        </div>
+      </nav>
     );
   }
 }
