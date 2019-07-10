@@ -12,11 +12,17 @@ module.exports = app => {
   );
 
   // this time google strategy will see the code in the url
-  app.get('/auth/google/callback', passport.authenticate('google'));
+  app.get(
+    '/auth/google/callback',
+    passport.authenticate('google'),
+    (req, res) => {
+      res.redirect('/surveys');
+    }
+  );
 
   app.get('/api/logout', (req, res) => {
     req.logout();
-    res.send('Successfully logged out!');
+    res.redirect('/');
   });
 
   app.get('/api/current_user', (req, res) => {
