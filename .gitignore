@@ -338,3 +338,5 @@ config/dev.js
 #client side keys
 client/.env.development
 client/.env.production
+
+.vscode/
