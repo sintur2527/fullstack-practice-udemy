@@ -334,3 +334,7 @@ node_modules
 
 # config/keys
 config/dev.js
+
+#client side keys
+client/.env.development
+client/.env.production
